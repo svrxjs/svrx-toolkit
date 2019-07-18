@@ -1,11 +1,17 @@
 # `svrx-toolkit`
 
-> TODO: description
+> Plugin development toolkit for svrx
 
 ## Usage
 
-```
-const svrxToolkit = require('svrx-toolkit');
+Install
 
-// TODO: DEMONSTRATE API
+```bash
+npm install -g svrx-toolkit
+```
+
+Scaffold
+
+```bash
+svrx-toolkit init
 ```
