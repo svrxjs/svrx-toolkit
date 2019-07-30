@@ -2,6 +2,7 @@
 
 const program = require('commander');
 const Scaffold = require('../lib/scaffold');
+const Server = require('../lib/server');
 
 program.version(require('../package').version).usage('<command> [options]');
 
@@ -10,6 +11,13 @@ program
   .description('Generate a svrx plugin project')
   .action(async () => {
     new Scaffold();
+  });
+
+program
+  .command('serve')
+  .description('Generate a svrx plugin project')
+  .action(async () => {
+    new Server();
   });
 
 program

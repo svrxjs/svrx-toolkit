@@ -1,6 +1,6 @@
 {
   "name": "svrx-toolkit",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1-beta.2",
   "description": "Toolkit for svrx",
   "keywords": [
     "svrx",
@@ -26,14 +26,18 @@
     "commander": "^2.20.0",
     "consolidate": "^0.15.1",
     "download-git-repo": "^2.0.0",
+    "fs-extra": "^8.1.0",
     "handlebars": "^4.1.2",
     "inquirer": "^6.3.1",
+    "lodash": "^4.17.15",
     "metalsmith": "^2.3.0",
     "minimist": "^1.2.0",
     "node-fetch": "^2.6.0",
     "ora": "^3.4.0",
     "rimraf": "^2.6.3",
     "semver": "^6.2.0",
+    "svrx-util": "0.0.5",
+    "tmp": "^0.1.0",
     "user-home": "^2.0.0"
   },
   "engines": {
