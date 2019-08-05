@@ -15,7 +15,7 @@ program
 
 program
   .command('serve')
-  .description('Generate a svrx plugin project')
+  .description('Start a svrx server to debug plugin')
   .action(async () => {
     new Server();
   });
@@ -27,6 +27,7 @@ program
     console.log('Usage: svrx-toolkit <command> [options]\n');
     console.log('Commands and options:\n');
     console.log('init    Generate a svrx plugin project');
+    console.log('serve   Start a svrx server to debug plugin');
   });
 
 program.parse(process.argv);
